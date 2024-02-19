@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+background-image: url(images/466994.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+color: #fbfcfd;
+padding: 7px 20px;
+background: transparent;
+border: 2px solid #dd8d31;
+border-radius: 10px;
+outline: none;
+cursor: pointer;
+}
+
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+.side-bar{
+width: 50px;
+height: 100vh;
+background: linear-gradient(#00545d, #050d35);
+position: absolute;
+right: 0;
+top: 0;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+    button{
+        border-radius: 50% 1000px;
+    }
+.shape-margin{
+    width: 50px;
+    height: 10vh;
+    position: absolute;
+    right: 20;
+    bottom: 0;
+}
+.social-links img{
+    width: 60px;
+    margin: 422px auto;
+    cursor: pointer;
+    left: 8%;
+    
+}
+.social-links{
+    left: 7.5%;
+}
+.side-bar img{
+    width: 55px;
+}
+.text{
+
+    margin: 500px;
+    left: -29%;
+    position: absolute;
+}
+.text2{
+    margin: 390px;
+    left: -21%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
